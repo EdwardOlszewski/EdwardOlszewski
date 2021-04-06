@@ -1,0 +1,135 @@
+/* --- main defaults --- */
+main {
+  min-height: 80vh;
+}
+body {
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+/* --- Nav --- */
+.nav {
+  background-color: rgb(50, 50, 50);
+}
+.header-title {
+  color: white;
+}
+.nav-icons {
+  display: inline-block;
+  margin-right: 5px;
+  color: white;
+}
+.nav-icons:hover {
+  opacity: 80%;
+}
+.nav-links {
+  color: white;
+  margin-right: 5px;
+  margin-left: -10px;
+  margin-top: 3px;
+}
+.nav-links:hover {
+  opacity: 80%;
+}
+
+/* --- About Section ---*/
+.about-div {
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+  width: 60%;
+}
+.home-card {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  text-align: center;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+}
+.contact-card {
+  width: 100%;
+  background-color: rgb(50, 50, 50);
+  border: none;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 5em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.about-list {
+  text-align: left;
+  color: black;
+  font-size: 110%;
+}
+.content-div {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+/* --- Project Section --- */
+.project-title {
+  color: black;
+  text-align: left;
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+.project-card {
+  background-color: white;
+  text-align: left;
+  border-radius: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+}
+.project-img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: 90%;
+  margin: 10px;
+}
+.project-head {
+  color: rgb(0, 195, 255);
+  font-size: 150%;
+  margin-bottom: -1px;
+}
+.project-txt {
+  color: black;
+}
+.project-btns {
+  background: none;
+  color: 'black';
+  border: none;
+}
+.project-btn-txt {
+  color: black;
+}
+.project-btns:hover {
+  background: none;
+  color: 'black';
+  border: none;
+}
+.project-btn-txt:hover {
+  color: rgb(0, 195, 255);
+}
+
+/* --- misc --- */
+.line {
+  background-color: rgba(189, 189, 189, 0.5);
+  height: 1px;
+  width: 100%;
+}
+.seperation-line {
+  background-color: rgba(189, 189, 189, 0.5);
+  height: 1px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .about-div {
+    width: 80%;
+  }
+}
