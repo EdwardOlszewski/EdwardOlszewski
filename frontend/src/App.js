@@ -18,7 +18,7 @@ const App = () => {
       <main>
         <div className='mainContainer'>
           <Route path='/projects' component={ProjectScreen} exact />
-          <Route path='/home' component={HomeScreen} exact />
+          <Route path='/' component={HomeScreen} exact />
         </div>
       </main>
       <Footer />

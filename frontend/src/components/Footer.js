@@ -9,7 +9,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col className='text-center py-3'>
-            Copyright &copy; Edward Olszewski
+            © 2021 EDWARD OLSZEWSKI. ALL RIGHTS RESERVED.
           </Col>
         </Row>
       </Container>

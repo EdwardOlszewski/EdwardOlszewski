@@ -11,59 +11,60 @@ const JuliasCard = () => {
       <Card.Body>
         <h5 style={{ color }}>juliaswildliferehab.com</h5>
         <Row>
-          <Col xl={6}>
+          <Col xs={12} sm={12} md={6} lg={6} xl={6}>
             <Row>
               <Image className='project-img' src={juliasIMG} />
             </Row>
             <Row>
-              <Col>
+              <Col xs={6}>
                 <Button className='project-btns'>
-                  <p className='project-btn-txt'>
+                  <a
+                    href='https://juliaswildliferehab.com'
+                    className='project-btn-txt'
+                  >
                     <i className='fas fa-desktop' /> View Live Version
-                  </p>
+                  </a>
                 </Button>
               </Col>
-              <Col>
+              <Col xs={6}>
                 <Button className='project-btns'>
-                  <p className='project-btn-txt'>
+                  <a
+                    href='https://github.com/EdwardOlszewski/JuliasWildLifeRehab'
+                    className='project-btn-txt'
+                  >
                     <i className='fab fa-github' /> View On GitHub
-                  </p>
+                  </a>
                 </Button>
               </Col>
             </Row>
             <h5 style={{ color }}>Technologies Used</h5>
-            <Row>
-              <Col xl={6} style={{ textAlign: 'left' }}>
-                <ul className='project-txt'>
-                  <li>Webpack</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Google Maps API</li>
-                </ul>
+            <Row style={{ color: 'black' }}>
+              <Col xs={6} style={{ textAlign: 'left' }}>
+                <li>Webpack</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Google Maps API</li>
+                <li>JWT</li>
+                <br />
               </Col>
-              <Col xl={6} style={{ textAlign: 'left' }}>
-                <ul className='project-txt'>
-                  <li>Amazon AWS</li>
-                  <li>Mongo DB</li>
-                  <li>Cloudflare</li>
-                  <li>Heroku</li>
-                </ul>
+              <Col xs={6} style={{ textAlign: 'left' }}>
+                <li>Amazon AWS</li>
+                <li>Mongo DB</li>
+                <li>Cloudflare</li>
+                <li>Heroku</li>
               </Col>
             </Row>
             <h5 style={{ color }}>Notable Features</h5>
-            <Row>
-              <Col xl={6}>
-                <ul className='project-txt'>
-                  <li>Admin Menus</li>
-                  <li>Reviews</li>
-                  <li>About Section</li>
-                </ul>
+            <Row style={{ color: 'black' }}>
+              <Col xs={6}>
+                <li>Admin Menus</li>
+                <li>Reviews</li>
+                <li>About Section</li>
+                <br />
               </Col>
             </Row>
           </Col>
-          <Col xl={6}>
-            <br />
-
+          <Col xs={12} sm={12} md={6} style={{ padding: '0rem 2rem 0rem' }}>
             <Row>
               <h5 style={{ color }}>My Role</h5>
               <p className='project-txt'>

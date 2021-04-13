@@ -1,29 +1,55 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import { LinkContainer } from 'react-router-bootstrap'
 
 const Header = () => {
   return (
     <div>
-      <Navbar className='nav' expand='lg'>
+      <Navbar fixed='top' className='nav' expand='lg'>
         <Container>
-          <h5 className='header-title'>Edward Olszewski</h5>
+          <h5 className='header-title'>Edward Olszewski </h5>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
-
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='mr-auto'></Nav>
-            <Nav className='mr-right'>
-              <LinkContainer to='/home' activeClassName='nav-icons-active'>
-                <Nav.Link className='nav-links'>
-                  <h6>About</h6>
-                </Nav.Link>
-              </LinkContainer>
+            <Nav>
+              <div className='links-div'>
+                <a className='nav-icons' href='callto:12243881409'>
+                  <h5 className='icon'>
+                    <i className='fas fa-phone-square'> </i>
+                  </h5>
+                </a>
+                <a className='nav-icons' href='mailto:edolszewski96@gmail.com'>
+                  <h5 className='icon'>
+                    <i className='fas fa-envelope-square'></i>
+                  </h5>
+                </a>
+                <a
+                  className='nav-icons'
+                  href='https://www.linkedin.com/in/edwardolszewski'
+                >
+                  <h5 className='icon'>
+                    <i className='fab fa-linkedin'></i>
+                  </h5>
+                </a>
+                <a
+                  className='nav-icons'
+                  href='https://github.com/EdwardOlszewski'
+                >
+                  <h5 className='icon'>
+                    <i className='fab fa-github-square'></i>
+                  </h5>
+                </a>
 
-              <LinkContainer to='/projects'>
-                <Nav.Link className='nav-links'>
-                  <h6>Projects</h6>
-                </Nav.Link>
-              </LinkContainer>
+                <a
+                  className='nav-icons'
+                  href='/Resume.docx'
+                  download
+                  type='application/octet-stream '
+                >
+                  <h5 className='icon'>
+                    <i className='fas fa-file'></i>
+                  </h5>
+                </a>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
