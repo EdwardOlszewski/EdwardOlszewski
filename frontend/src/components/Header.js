@@ -25,7 +25,7 @@ const Header = () => {
                 </a>
                 <a
                   className='nav-icons'
-                  href='https://www.linkedin.com/in/edwardolszewski'
+                  href='https://www.linkedin.com/in/olszewskiedward'
                 >
                   <h5 className='icon'>
                     <i className='fab fa-linkedin'></i>
