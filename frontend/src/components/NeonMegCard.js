@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Image, Button, Row, Col } from 'react-bootstrap'
+import { Card, Image, Button, Row, Col, Container } from 'react-bootstrap'
 
 import NeonMegIMG from './NeonMeg.png'
 
@@ -13,7 +13,9 @@ const DoubleDCard = () => {
         <Row>
           <Col xs={12} sm={12} md={6} lg={6} xl={6}>
             <Row>
-              <Image className='project-img' src={NeonMegIMG} />
+             
+                <Image className='project-img' src={NeonMegIMG} />
+              
             </Row>
             <Row>
               <Col xs={6}>
