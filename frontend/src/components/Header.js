@@ -1,10 +1,11 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
+import Pdf from './Resume.pdf'
 
 const Header = () => {
   return (
     <div>
-      <Navbar fixed='top' className='nav' expand='lg'>
+      <Navbar fixed='top' className='nav' expand='lg' variant='dark'>
         <Container>
           <h5 className='header-title'>Edward Olszewski </h5>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -12,7 +13,7 @@ const Header = () => {
             <Nav className='mr-auto'></Nav>
             <Nav>
               <div className='links-div'>
-                <a className='nav-icons' href='callto:12243881409'>
+                <a className='nav-icons' href='callto:17089048915'>
                   <h5 className='icon'>
                     <i className='fas fa-phone-square'> </i>
                   </h5>
@@ -39,12 +40,7 @@ const Header = () => {
                   </h5>
                 </a>
 
-                <a
-                  className='nav-icons'
-                  href='/Resume.docx'
-                  download
-                  type='application/octet-stream '
-                >
+                <a className='nav-icons' href={Pdf} target='_blank'>
                   <h5 className='icon'>
                     <i className='fas fa-file'></i>
                   </h5>

@@ -22,7 +22,7 @@ const SportsCard = () => {
                     href='https://sportsandsneakers.com'
                     className='project-btn-txt'
                   >
-                    <i className='fas fa-desktop' /> View Live Version
+                    <i className='fas fa-desktop' /> View Live
                   </a>
                 </Button>
               </Col>
@@ -32,7 +32,7 @@ const SportsCard = () => {
                     href='https://github.com/EdwardOlszewski/SportsAndSneakers'
                     className='project-btn-txt'
                   >
-                    <i className='fab fa-github' /> View On GitHub
+                    <i className='fab fa-github' /> View GitHub
                   </a>
                 </Button>
               </Col>

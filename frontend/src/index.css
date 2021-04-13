@@ -104,6 +104,8 @@ ul {
   box-shadow: var(--card-shadow);
   width: 90%;
   margin: 10px;
+  max-height: 500px;
+  min-height: 200px;
 }
 .project-txt {
   color: black;
