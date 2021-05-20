@@ -13,9 +13,7 @@ const DoubleDCard = () => {
         <Row>
           <Col xs={12} sm={12} md={6} lg={6} xl={6}>
             <Row>
-             
-                <Image className='project-img' src={NeonMegIMG} />
-              
+              <Image className='project-img' src={NeonMegIMG} />
             </Row>
             <Row>
               <Col xs={6}>
@@ -54,6 +52,7 @@ const DoubleDCard = () => {
                 <li>Mongo DB</li>
                 <li>Cloudflare</li>
                 <li>JWT</li>
+                <li>SendinBlue</li>
               </Col>
             </Row>
             <h5 style={{ color }}>Notable Features</h5>
@@ -62,6 +61,7 @@ const DoubleDCard = () => {
                 <li>Registration</li>
                 <li>Login</li>
                 <li>Ecommerce</li>
+                <li>Dynamic Emails/Receipts</li>
                 <br />
               </Col>
               <Col xs={6}>

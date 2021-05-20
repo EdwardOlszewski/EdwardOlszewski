@@ -45,6 +45,7 @@ const NeonMegCard = () => {
                 <li>CSS3</li>
                 <li>Google Maps API</li>
                 <li>Stripe API</li>
+                <li>SendinBlue</li>
               </Col>
               <Col xs={6} style={{ textAlign: 'left' }}>
                 <li>Amazon AWS</li>
@@ -52,6 +53,7 @@ const NeonMegCard = () => {
                 <li>Cloudflare</li>
                 <li>JWT</li>
                 <li>Heroku</li>
+
                 <br />
               </Col>
             </Row>
@@ -65,9 +67,9 @@ const NeonMegCard = () => {
               </Col>
               <Col xs={6}>
                 <li>Upcoming events</li>
-
                 <li>Product Reviews</li>
                 <li>Google Maps api</li>
+                <li>Dynamic Emails/Receipts</li>
                 <br />
               </Col>
             </Row>
