@@ -41,8 +41,8 @@ const Header = () => {
                 </a>
 
                 <a className='nav-icons' href={Pdf} target='_blank'>
-                  <h5 className='icon'>
-                    <i className='fas fa-file'></i>
+                  <h5 className='icon' style={{ marginLeft: '20px' }}>
+                    Resume
                   </h5>
                 </a>
               </div>
