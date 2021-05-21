@@ -4,8 +4,8 @@
   "description": "EdwardOlszewski Website",
   "main": "server.js",
   "type": "module",
-  "engine": {
-    "node": "14.13.1.",
+  "engines": {
+    "node": "14.17.0",
     "npm": "7.5.2"
   },
   "scripts": {
