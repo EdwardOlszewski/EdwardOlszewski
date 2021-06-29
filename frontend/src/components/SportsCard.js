@@ -61,7 +61,7 @@ const SportsCard = () => {
               <Col xs={6}>
                 <li>Admin Menus</li>
                 <li>YouTube API Videos</li>
-                <li>About Me Section</li>
+                <li>Ecommerce</li>
                 <br />
               </Col>
             </Row>
@@ -92,7 +92,7 @@ const SportsCard = () => {
                 After assessing the customers initial requirements as well as
                 new ones as they came up. I was able to create a full functional
                 website to showcase the customers images as well as their
-                YouTube Videos.
+                YouTube Videos and merchandise.
               </p>
             </Row>
           </Col>
