@@ -59,6 +59,7 @@ const JuliasCard = () => {
                 <li>Admin Menus</li>
                 <li>Reviews</li>
                 <li>About Section</li>
+
                 <br />
               </Col>
             </Row>

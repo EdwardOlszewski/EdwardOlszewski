@@ -61,6 +61,7 @@ const TooFightersCard = () => {
                 <li>Reverb Nation Music</li>
                 <li>Events</li>
                 <br />
+                <br />
               </Col>
             </Row>
           </Col>
