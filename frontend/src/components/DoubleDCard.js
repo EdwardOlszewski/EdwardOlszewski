@@ -1,7 +1,6 @@
 import React from 'react'
 import { Card, Image, Button, Row, Col } from 'react-bootstrap'
-
-import doubleDIMG from './DoubleD.png'
+import doubleDIMG from '../images/DoubleD.png'
 
 const NeonMegCard = () => {
   const color = '#06aa0d'

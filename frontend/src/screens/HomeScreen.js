@@ -1,11 +1,10 @@
 import React from 'react'
-import { Row, Col, Card, Image, Container } from 'react-bootstrap'
-import profilePicture from './profile.png'
+import { Row, Col, Card } from 'react-bootstrap'
 import DoubleDCard from '../components/DoubleDCard'
 import NeonMegCard from '../components/NeonMegCard'
 import SportsCard from '../components/SportsCard'
 import JuliasCard from '../components/JuliasCard'
-
+import TooFightersCard from '../components/TooFightersCard'
 import WindowSize from '../components/WindowSize'
 
 const HomeScreen = () => {
@@ -34,7 +33,10 @@ const HomeScreen = () => {
         {size.width < 1350 ? (
           <>
             <Row noGutters>
-              <NeonMegCard />
+              <TooFightersCard />
+            </Row>
+            <Row noGutters>
+              <JuliasCard />
             </Row>
             <Row noGutters>
               <DoubleDCard />
@@ -43,14 +45,17 @@ const HomeScreen = () => {
               <SportsCard />
             </Row>
             <Row noGutters>
-              <JuliasCard />
+              <NeonMegCard />
             </Row>
           </>
         ) : (
           <>
             <Row noGutters>
               <Col md={12} xl={6}>
-                <NeonMegCard />
+                <TooFightersCard />
+              </Col>
+              <Col md={12} xl={6}>
+                <JuliasCard />
               </Col>
               <Col md={12} xl={6}>
                 <DoubleDCard />
@@ -59,7 +64,7 @@ const HomeScreen = () => {
                 <SportsCard />
               </Col>
               <Col md={12} xl={6}>
-                <JuliasCard />
+                <NeonMegCard />
               </Col>
             </Row>
           </>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import Pdf from './Resume.pdf'
+import Pdf from '../images/Resume.pdf'
 
 const Header = () => {
   return (

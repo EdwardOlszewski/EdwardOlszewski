@@ -1,7 +1,6 @@
 import React from 'react'
 import { Card, Image, Button, Row, Col } from 'react-bootstrap'
-
-import sportsIMG from './SportsAndSneakers.png'
+import sportsIMG from '../images/SportsAndSneakers.png'
 
 const SportsCard = () => {
   const color = 'red'
@@ -9,7 +8,7 @@ const SportsCard = () => {
   return (
     <Card className='project-card'>
       <Card.Body>
-        <h5 style={{ color }}>SportsAndSneakers.com</h5>
+        <h5 style={{ color }}>sportsandsneakers.com</h5>
         <Row>
           <Col xs={12} sm={12} md={6} lg={6} xl={6}>
             <Row>

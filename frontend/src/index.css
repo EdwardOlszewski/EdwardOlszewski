@@ -129,17 +129,14 @@ ul {
 }
 
 /* --- misc --- */
-.line {
-  background-color: rgba(189, 189, 189, 0.5);
-  height: 1px;
-  width: 100%;
-}
 .seperation-line {
   background-color: rgba(189, 189, 189, 0.5);
   height: 1px;
-  width: 98%;
+  width: 95%;
   text-align: center;
   margin: auto;
+  margin-top: 2rem;
+  margin-bottom: -3rem;
 }
 
 @media (max-width: 990px) {

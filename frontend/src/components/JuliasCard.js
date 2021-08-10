@@ -1,7 +1,6 @@
 import React from 'react'
 import { Card, Image, Button, Row, Col } from 'react-bootstrap'
-
-import juliasIMG from './Julia.png'
+import juliasIMG from '../images/Julia.png'
 
 const JuliasCard = () => {
   const color = '#3d673b'
