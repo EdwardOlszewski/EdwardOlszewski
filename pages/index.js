@@ -72,26 +72,20 @@ export default function Home({}) {
         <Tab className={classes.tab} label='React Projects' />
         <Tab className={classes.tab} label='NextJS Projects' />
         <Tab className={classes.tab} label='Graphics' />
+
+        <TabPanel value={value} index={0}>
+          <Projects data={reactProjects.data} />
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+          <Projects data={nextJSProjects.data} />
+        </TabPanel>
+        <TabPanel value={value} index={2}>
+          <Graphics data={graphicsProjects.data} />
+        </TabPanel>
       </Tabs>
     </Box>
   )
 }
-
-/*
-
-<TabPanel value={value} index={0}>
-        <Projects data={reactProjects.data} />
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        <Projects data={nextJSProjects.data} />
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        <Graphics data={graphicsProjects.data} />
-      </TabPanel>
-
-
-
-
 
 export const getStaticProps = async () => {
   const [ReactProjectsRes, NextJSRes, GraphicsRes] = await Promise.all([
@@ -108,5 +102,3 @@ export const getStaticProps = async () => {
 
   return { props: { reactProjects, nextJSProjects, graphicsProjects } }
 }
-
-*/
