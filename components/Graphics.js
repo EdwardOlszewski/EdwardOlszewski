@@ -25,8 +25,8 @@ const Graphics = ({ data }) => {
     <Grid container spacing={1}>
       {data.map((graphics) => (
         <Fade timeout={1000} in={true}>
-          <Grid item xs={12} sm={12} md={12} lg={4}>
-            <Card className={classes.card} elevation={0}>
+          <Grid key={graphics._id} item xs={12} sm={12} md={12} lg={4}>
+            <Card key={graphics._id} className={classes.card} elevation={0}>
               <Typography variant='h4' className={classes.cardTitle}>
                 {graphics.title}
               </Typography>

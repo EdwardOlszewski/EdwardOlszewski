@@ -30,8 +30,8 @@ const Projects = ({ data }) => {
     <Grid container spacing={1} className={classes.root}>
       {data.map((info) => (
         <Fade timeout={1000} in={true}>
-          <Grid item xs={12} sm={12} md={12} lg={6}>
-            <Card className={classes.card} elevation={0}>
+          <Grid key={info._id} item xs={12} sm={12} md={12} lg={6}>
+            <Card key={info._id} className={classes.card} elevation={0}>
               <Typography variant='h5' className={classes.cardTitle}>
                 {info.title}
               </Typography>
