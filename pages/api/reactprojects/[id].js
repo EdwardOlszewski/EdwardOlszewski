@@ -52,7 +52,7 @@ export default async function index(req, res) {
           project.projectDif = project.projectDif
           project.mySolution = project.mySolution
           project.imgURL = project.imgURL
-
+          project.techUsed = project.techUsed
           updatedProject = await project.save()
         }
 
