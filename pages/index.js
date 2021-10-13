@@ -76,17 +76,16 @@ export default function Home({
         <Tab className={classes.tab} label='React Projects' />
         <Tab className={classes.tab} label='NextJS Projects' />
         <Tab className={classes.tab} label='Graphics' />
-
-        <TabPanel value={value} index={0}>
-          <Projects data={reactProjects.data} />
-        </TabPanel>
-        <TabPanel value={value} index={1}>
-          <Projects data={nextJSProjects.data} />
-        </TabPanel>
-        <TabPanel value={value} index={2}>
-          <Graphics data={graphicsProjects.data} />
-        </TabPanel>
       </Tabs>
+      <TabPanel value={value} index={0}>
+        <Projects data={reactProjects.data} />
+      </TabPanel>
+      <TabPanel value={value} index={1}>
+        <Projects data={nextJSProjects.data} />
+      </TabPanel>
+      <TabPanel value={value} index={2}>
+        <Graphics data={graphicsProjects.data} />
+      </TabPanel>
     </Box>
   )
 }
