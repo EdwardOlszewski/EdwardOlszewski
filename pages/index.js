@@ -41,11 +41,7 @@ function TabPanel(props) {
   )
 }
 
-export default function Home({
-  reactProjects,
-  nextJSProjects,
-  graphicsProjects,
-}) {
+export default function Home({}) {
   const classes = useStyles()
   const [value, setValue] = useState(0)
 
@@ -77,7 +73,13 @@ export default function Home({
         <Tab className={classes.tab} label='NextJS Projects' />
         <Tab className={classes.tab} label='Graphics' />
       </Tabs>
-      <TabPanel value={value} index={0}>
+    </Box>
+  )
+}
+
+/*
+
+<TabPanel value={value} index={0}>
         <Projects data={reactProjects.data} />
       </TabPanel>
       <TabPanel value={value} index={1}>
@@ -86,9 +88,10 @@ export default function Home({
       <TabPanel value={value} index={2}>
         <Graphics data={graphicsProjects.data} />
       </TabPanel>
-    </Box>
-  )
-}
+
+
+
+
 
 export const getStaticProps = async () => {
   const [ReactProjectsRes, NextJSRes, GraphicsRes] = await Promise.all([
@@ -105,3 +108,5 @@ export const getStaticProps = async () => {
 
   return { props: { reactProjects, nextJSProjects, graphicsProjects } }
 }
+
+*/
