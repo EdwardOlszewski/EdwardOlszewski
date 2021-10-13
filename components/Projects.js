@@ -49,14 +49,18 @@ const Projects = ({ data }) => {
 
                   <Grid container xs={12} style={{ textAlign: 'center' }}>
                     <Grid item xs={6}>
-                      <Button size='medium'>
-                        <ScreenShareIcon /> View Live
-                      </Button>
+                      <a href={info.webLink}>
+                        <Button size='medium'>
+                          <ScreenShareIcon /> View Live
+                        </Button>
+                      </a>
                     </Grid>
                     <Grid item xs={6}>
-                      <Button size='small'>
-                        <GitHubIcon /> GitHub Link
-                      </Button>
+                      <a href={info.gitHubLink}>
+                        <Button size='small'>
+                          <GitHubIcon /> GitHub Link
+                        </Button>
+                      </a>
                     </Grid>
                   </Grid>
 

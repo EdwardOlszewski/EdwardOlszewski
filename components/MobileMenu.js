@@ -11,6 +11,7 @@ import EmailIcon from '@material-ui/icons/Email'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import MenuIcon from '@mui/icons-material/Menu'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import DescriptionIcon from '@mui/icons-material/Description'
 
 const useStyles = makeStyles((theme) => ({
   list: {
@@ -41,7 +42,16 @@ export default function SwipeableTemporaryDrawer() {
       })}
       role='presentation'
     >
-      <List>
+      <List style={{ paddingTop: '2rem' }}>
+        <a className='nav-icons' href='../images/Resume.pdf' target='_blank'>
+          <ListItem button onClick={toggleDrawer('left', false)}>
+            <ListItemIcon>
+              <DescriptionIcon />
+            </ListItemIcon>
+            <ListItemText primary='Resume ' />
+          </ListItem>
+        </a>
+
         <a href='tel:+7089048915'>
           <ListItem button onClick={toggleDrawer('left', false)}>
             <ListItemIcon>
