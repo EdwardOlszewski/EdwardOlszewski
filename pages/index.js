@@ -41,7 +41,11 @@ function TabPanel(props) {
   )
 }
 
-export default function Home({}) {
+export default function Home({
+  reactProjects,
+  nextJSProjects,
+  graphicsProjects,
+}) {
   const classes = useStyles()
   const [value, setValue] = useState(0)
 
