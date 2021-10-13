@@ -96,7 +96,13 @@ export default function ButtonAppBar() {
           </Typography>
           <Hidden smDown>
             <Link href='/resume'>
-              <Button className={classes.menuButton}>Resume </Button>
+              <a
+                className='nav-icons'
+                href='../images/Resume.pdf'
+                target='_blank'
+              >
+                <Button className={classes.menuButton}>Resume </Button>
+              </a>
             </Link>
 
             <IconButton className={classes.menuButton}>

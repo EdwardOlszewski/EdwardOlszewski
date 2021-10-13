@@ -46,14 +46,13 @@ export default async function index(req, res) {
         const project = await ReactProject.findById(id)
         var updatedProject = ''
         if (project) {
-          project.title = 'sportsandsneakers.com'
           project.gitHubLink = project.gitHubLink
           project.webLink = project.webLink
           project.myRole = project.myRole
           project.projectDif = project.projectDif
           project.mySolution = project.mySolution
           project.imgURL = project.imgURL
-
+          project.techUsed = project.techUsed
           updatedProject = await project.save()
         }
 
